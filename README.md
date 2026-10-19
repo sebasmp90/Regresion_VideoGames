@@ -37,7 +37,7 @@ flowchart LR
 
 ## Modelos
 
-Los tres modelos, el escalador y la lista de columnas están serializados juntos en `modelo (1).pkl`:
+Los tres modelos, el escalador y la lista de columnas están serializados juntos en `modelo.pkl`:
 
 | Componente | Configuración |
 |---|---|
@@ -71,7 +71,7 @@ La app se abre en `http://localhost:8501`.
 | Archivo | Contenido |
 |---|---|
 | [`app.py`](app.py) | Aplicación Streamlit: formulario, preparación de datos y predicción |
-| `modelo (1).pkl` | Modelos entrenados, escalador y lista de columnas |
+| [`modelo.pkl`](modelo.pkl) | Modelos entrenados, escalador y lista de columnas |
 | [`requirements.txt`](requirements.txt) | Dependencias |
 
 ## Limitaciones y mejoras posibles
